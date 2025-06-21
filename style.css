@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+nav {
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+.nav-links a:hover {
+  color: #fbc531;
+}
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+}
+.hero span {
+  color: #fbc531;
+}
+section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.experience .exp-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.experience ul {
+  padding-left: 1.2rem;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  color: white;
+}
+a {
+  color: #4ca1af;
+}
+a:hover {
+  color: #fbc531;
+}
